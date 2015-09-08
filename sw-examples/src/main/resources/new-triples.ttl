@@ -1,0 +1,7 @@
+<http://example.org/inst/ChickenHut>
+        a       <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://example.org/term/tourismObject> ;
+        <http://example.org/term/TripAdvisorRating>
+                <http://www.w3.org/2001/XMLSchema#3.5> .
+
+<http://example.org/inst/Museion>
+        a       <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://example.org/term/tourismAttraction> , <http://example.org/term/tourismObject> , <http://example.org/term/artMuseum> , <http://example.org/term/museum> , <http://example.org/term/modernArtMuseum> .

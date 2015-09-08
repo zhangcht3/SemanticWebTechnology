@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://www.xmlns.com/foaf/spec/> .
+
+ex:ChuangtaoZhang
+    rdf:type foaf:Person ;
+    foaf:title     "Mr" ;
+    foaf:firstName "Chuangtao" ;
+    foaf:lastName  "Zhang" ;
+    foaf:mbox      <zhangcht3@gmail.com> ;
+    foaf:homepage  <https://github.com/zhangcht3> ;
+    foaf:img       <https://avatars3.githubusercontent.com/u/7289938?v=3&s=460> ;
+    foaf:phone     <tel:18819473324> ;
+    foaf:knows [
+        rdf:type foaf:Person ;
+        foaf:name "JohnSmith"
+    ] ;
+    ex:favoriteFood "Rice" ;
+    ex:favoriteMovie "Pirates of the Caribbean" ;
+
+    foaf:birthday "07-03" ;
+    foaf:interest <https://www.wikipedia.org/> ;
+    foaf:nick     "Chuang" .
+

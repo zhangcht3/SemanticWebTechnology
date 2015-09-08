@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/"
+    xmlns:foaf="http://www.xmlns.com/foaf/spec/" > 
+  <rdf:Description rdf:about="http://example.org/ChuangtaoZhang">
+    <foaf:firstName>Chuangtao</foaf:firstName>
+    <foaf:nick>Chuang</foaf:nick>
+    <foaf:mbox rdf:resource="file:///C:/Users/lenovo/Desktop/Project/sw-examples/zhangcht3@gmail.com"/>
+    <foaf:homepage rdf:resource="https://github.com/zhangcht3"/>
+    <foaf:knows rdf:nodeID="A0"/>
+    <foaf:phone rdf:resource="tel:18819473324"/>
+    <foaf:birthday>07-03</foaf:birthday>
+    <ex:favoriteFood>Rice</ex:favoriteFood>
+    <rdf:type rdf:resource="http://www.xmlns.com/foaf/spec/Person"/>
+    <foaf:lastName>Zhang</foaf:lastName>
+    <ex:favoriteMovie>Pirates of the Caribbean</ex:favoriteMovie>
+    <foaf:title>Mr</foaf:title>
+    <foaf:interest rdf:resource="https://www.wikipedia.org/"/>
+    <foaf:img rdf:resource="https://avatars3.githubusercontent.com/u/7289938?v=3&amp;s=460"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:nick>Boss</foaf:nick>
+    <foaf:name>JohnSmith</foaf:name>
+    <rdf:type rdf:resource="http://www.xmlns.com/foaf/spec/Person"/>
+  </rdf:Description>
+</rdf:RDF>

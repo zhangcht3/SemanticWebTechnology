@@ -1,0 +1,24 @@
+Case1:
+
+<http://example.org/inst/ChickenHut>
+        a       <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://example.org/term/tourismObject> ;
+        <http://example.org/term/TripAdvisorRating>
+                <http://www.w3.org/2001/XMLSchema#3.5> .
+
+For the Chicken Hut, since it is the subject of the triples, its type is a resource and it is defined by RDFS.
+Since the Chicken Hut has the property of "TripAdvisorRating", so it must be a instance of tourism objects and this is inferred by
+the triple of ":TripAdvisorRating rdfs:domain :tourismObject .".
+
+
+Case2:
+
+<http://example.org/inst/Museion>
+        a       <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://example.org/term/tourismAttraction> , <http://example.org/term/tourismObject> , <http://example.org/term/artMuseum> , <http://example.org/term/museum> , <http://example.org/term/modernArtMuseum> .
+
+For the Museion, since it is the subject of the triples, its type is a resource and it is defined by RDFS.
+From the triple of "i:Museion rdf:type :modernArtMuseum .", we know that the Museion is an instance of the
+modernArtMuseum class and the inferring process belows.
+Since modernArtMuseum is a subclass of artMuseum, so the Museion is an instance of artMuseum.
+Since artMuseum is a subclass of museum, so the Museion is an instance of museum.
+Since museum is a subclass of tourismAttraction, so the Museion is an instance of tourismAttraction.
+Since tourismAttraction is a subclass of tourismObject, so the Museion is an instance of tourismObject.
